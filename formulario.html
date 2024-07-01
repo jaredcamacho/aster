@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul{
+        list-style: none;
+    }
+</style>
+<body>
+    <form action="proyfinal.php" method="get" align = "center ">
+        <h1>Suscripción a Aster</h1>
+        <ul>
+            <li>
+                <label for = "name">Nombre Completo: </label>
+                <input type = "text" id = "nomcom" name = "nomcom"/>
+            </li>
+            <br>
+            <li>
+                <label for = "correo">Correo Electrónico: </label>
+                <input type = "email" id = "correo" name = "correo"/>
+            </li>
+            <br>
+            <br>
+            <li>
+                <label for = "name">Plan de Suscripción</label>
+                <select name = "plan" value = "any">
+                    <option value = "1 Semana">1 Semana</option>
+                    <option value = "1 mes con anuncios">1 Mes con anuncios</option>
+                    <option value = "1 mes sin anuncios">1 Mes sin anuncios</option>
+                    <option value = "3 meses">3 Meses</option>
+                    <option value = "1 año">1 Año</option>
+                </select>
+            </li>
+            <br>
+            <li>
+                <label for = "name">Método de pago: </label>
+                <br>
+                <label for = "name">Efectivo</label>
+                <input type = "radio" name = "rgb" value = "efectivo"/>
+                <label for = "name">Débito</label>
+                <input type = "radio" name = "rgb" value = "tarjeta de débito"/>
+                <label for = "name">Crédito</label>
+                <input type = "radio" name = "rgb" value = "tarjeta de crédito"/>
+
+            </li>
+            <br>
+            <button type = "submit">Suscribirse</button>
+            <button type = "reset">Borrar</button>
+        </ul>
+    </form>
+</body>
+</html>

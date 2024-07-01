@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type = "text/css" href = "proyfinal.css">
+    <center>
+        <h1>Aster</h1>
+        <h2>¡Disfruta de tus películas y series favoritas!</h2>
+    </center>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="musica">
+        <button onclick = "toggleaudio()">Música</button>
+    </div>
+    <div class = "song">
+        <audio id = "routines" controls autoplay>
+            <source src="routines.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <script>
+        var audio = document.getElementById('routines');
+        function toggleaudio(){
+            if(audio.paused){
+                audio.play();
+            }
+            else{
+                audio.pause();
+            }
+            audio.volume = 0.5;
+        }
+    </script>
+    <div class="aster">
+        <p>En Aster puedes tener acceso a una gran cantidad de series y películas <br>
+        para mirar en donde sea.</p>
+    </div>
+    <br>
+    <br>
+    <h2 class = "series">SERIES</h2>
+    <img class = "theboys" src = "https://es.web.img3.acsta.net/pictures/19/07/09/14/34/1532536.jpg?coixp=57&coiyp=52">
+    <img class = "snk" src = "https://static.wikia.nocookie.net/shingeki-no-kyojin/images/5/53/Primera_temporada_%28parte_1%29.png/revision/latest/scale-to-width/360?cb=20181015211526&path-prefix=es">
+    <img class = "mob" src = "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/a89cfc561f6de95d35723fd665d708fb.jpe">
+    <img class = "tlof" src = "https://pics.filmaffinity.com/The_Last_of_Us_Cuando_te_pierdas_en_la_oscuridad_Episodio_piloto_TV-991188499-mmed.jpg">
+    <img class = "inv" src = "https://pics.filmaffinity.com/Invencible_Serie_de_TV-636366029-large.jpg">
+    <img class = "peace" src = "https://pics.filmaffinity.com/peacemaker-603287763-mmed.jpg">
+    <br>
+    <br>
+    <br>
+    <div>
+        <center>
+            <h2 class = "pelis">PELÍCULAS</h2>
+        </center>
+        <br>
+        <img class = "interstellar" src = "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg">
+        <img class = "spiderverse" src = "https://moviepostermexico.com/cdn/shop/files/spiderman_across_the_spiderverse_ver3_xxlg_1024x1024@2x.jpg?v=1686681038">
+        <img class = "hereditary" src = "https://pics.filmaffinity.com/Hereditary-659865612-large.jpg">
+        <img class = "train" src = "https://cdn.moviescore.com/posters/4158.jpg">
+        <img class = "getout" src="https://static01.nyt.com/images/2018/03/03/arts/03get-out-posters-print2/merlin_134418533_a3f2d747-aa59-4ba1-92e6-4376f85587eb-superJumbo.jpg">
+        <img class = "supercool" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyEwndB12yg3qE2j4eK8JFbcePUw7O0jO02g&s">
+    </div>
+    <br>
+    <br>
+    <center>
+        <a href = "formulario.html" class="form">Suscribirse</a>
+    </center>
+</body>
+</html>

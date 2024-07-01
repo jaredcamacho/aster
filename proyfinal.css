@@ -1,0 +1,112 @@
+body{
+    background: url("https://static.wikia.nocookie.net/interstellarfilm/images/6/61/Saturn.jpg/revision/latest/scale-to-width-down/1200?cb=20150714100538");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: #ababe2;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    color:#cbcbff;
+}
+.aster{
+    display: block;
+    text-align: center;
+    font-family: 'Playwrite NG Modern';
+    color:#cbcbff;
+}
+.series{
+    text-align: center;
+    color:rgb(177, 10, 10);
+}
+.theboys{
+    border-radius: 100px;
+    height: 350px;
+    width: 280px;
+    margin-left: 9%;
+}
+.snk{
+    border-radius: 100px;
+    height: 350px;
+    width: 300px;
+    margin-left: 8%;
+}
+.mob{
+    border-radius: 100px;
+    height: 350px;
+    width: 300px;
+    margin-left: 9%;
+}
+.tlof{
+    border-radius: 100px;
+    height: 360px;
+    width: 270px;
+    margin-left: 9%;
+}
+.inv{
+    border-radius: 100px;
+    height: 350px;
+    width: 300px;
+    margin-left: 8%;
+}
+.peace{
+    border-radius: 100px;
+    height: 350px;
+    width: 300px;
+    margin-left: 9%;
+}
+.pelis{
+    text-align: center;
+    color:#e4499e;
+}
+.interstellar{
+    border-radius: 100px;
+    height: 350px;
+    width: 270px;
+    margin-left: 10%;
+}
+.spiderverse{
+    border-radius: 100px;
+    height: 350px;
+    width: 300px;
+    margin-left: 8%;
+}
+.hereditary{
+    border-radius: 100px;
+    height: 350px;
+    width: 270px;
+    margin-left: 9%;
+}
+.train{
+    border-radius: 100px;
+    height: 350px;
+    width: 280px;
+    margin-left: 9%;
+}
+.getout{
+    border-radius: 100px;
+    height: 350px;
+    width: 300px;
+    margin-left: 8%;
+}
+.supercool{
+    border-radius: 100px;
+    height: 320px;
+    width: 300px;
+    margin-left: 9%;
+}
+.song{
+    text-align: center;
+    display: none;
+}
+.musica{
+    text-align: center;
+}
+.form{
+    font-size: 50px;
+    text-decoration: none;
+    color:rgb(0, 89, 255);
+}
